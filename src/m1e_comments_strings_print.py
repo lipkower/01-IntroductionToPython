@@ -22,9 +22,10 @@
 ###############################################################################
 
 
-print('Hello, World')
+print('Hello, Dr.Brackin')
 print('hi there')
 print('one', 'two', 'buckle my shoe')
 
 print(3 + 9)
 print('3 + 9', 'versus', 3 + 9)
+print('How do we know what sounds dinosaurs made')
