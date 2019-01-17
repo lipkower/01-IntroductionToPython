@@ -1844,7 +1844,7 @@ class SimpleTurtle(object):
             self.forward(length_of_sides)
             self.left(90)
 
-    def draw_regular_polygon(self, number_of_sides, length_of_sides):
+    def draw_regular_polygon(self, number_of_sides: object, length_of_sides: object) -> object:
         """
         Makes this SimpleTurtle draw a regular polygon with the given
         number of sides and the given length for each of its sides.
