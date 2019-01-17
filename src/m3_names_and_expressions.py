@@ -1,4 +1,3 @@
-
 answer = 2 ** 5
 print(answer * 100)
 
@@ -29,8 +28,9 @@ print(answer * 100)
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 import math
-sum = math.cos(2.75) + 77
-print(math.sqrt(sum))
+
+orange = math.cos(2.75) + 77
+print(math.sqrt(orange))
 ###############################################################################
 # done: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
@@ -38,7 +38,7 @@ print(math.sqrt(sum))
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-jellybean= ((41*88)+(4*math.cos(2)))
+jellybean = ((41 * 88) + (4 * math.cos(2)))
 print(jellybean)
 ###############################################################################
 # done: 4.
@@ -49,8 +49,8 @@ print(jellybean)
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-circle=(math.sqrt(2))
-square=(2**.5)
+circle = (math.sqrt(2))
+square = (2 ** .5)
 print(circle, square)
 
 ###############################################################################
@@ -99,7 +99,7 @@ print(type('hello'))
 print(type('a b c'))
 print(type(3 + 3))
 print(type("3" + "3"))
-print(type(2**100))
+print(type(2 ** 100))
 print(type(math.sin(8)))
 print(type(math.sin))
 print(type(print))
