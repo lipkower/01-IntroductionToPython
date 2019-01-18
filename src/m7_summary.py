@@ -11,7 +11,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 
 ########################################################################
 #
-# TODO: 2.
+# done: 2.
 #   Write code that accomplishes the following (and ONLY the following),
 #   in the order listed:
 #
@@ -53,14 +53,11 @@ squirt.pen = rg.Pen('blue', 1)
 squirt.left(90)
 squirt.forward(200)
 squirt.pen_up()
-squirt.x_cor()
-squirt.x_cor = 100
-squirt.y_cor()
-squirt.y_cor = -40
+squirt.go_to(rg.Point(100, -40))
 
 squirt.pen_down()
 squirt.pen = rg.Pen('green', 10)
-squirt.left(90)
+squirt.left(180)
 squirt.forward(150)
 
 
