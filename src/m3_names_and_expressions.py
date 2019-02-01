@@ -38,7 +38,7 @@ print(math.sqrt(orange))
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-jellybean = ((41 * 88) + (4 * math.cos(2)))
+jellybean = (math.sqrt(41 * 88) + (4 * math.cos(2)))
 print(jellybean)
 ###############################################################################
 # done: 4.
